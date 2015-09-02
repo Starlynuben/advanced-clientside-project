@@ -1,3 +1,40 @@
+header {
+  min-height: 100vh;
+  background-image: url(../img/background.gif);
+  background-position: fixed; }
+  header .backgroundDark {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; }
+  header h1 {
+    text-align: center;
+    margin: 0px;
+    padding-top: 5em; }
+  header p {
+    text-align: center;
+    margin-top: 4em; }
+
+#nav {
+  list-style-type: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 8em;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  #nav li {
+    -webkit-flex: 1 0 content;
+    -ms-flex: 1 0 content;
+    flex: 1 0 content;
+    margin: 0.5em; }
+    #nav li a {
+      text-decoration: none;
+      color: white; }
+
 main {
   -webkit-flex: 1 0 100%;
   -ms-flex: 1 0 100%;
@@ -5,5 +42,9 @@ main {
 
 section {
   min-height: 100vh; }
-  section .home {
-    text-align: center; }
+  section .sectionTitle {
+    border-bottom: thin solid black;
+    width: 2em;
+    margin-left: 1em; }
+  section p {
+    margin: 1em; }
