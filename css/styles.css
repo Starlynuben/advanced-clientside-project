@@ -1,0 +1,9 @@
+main {
+  -webkit-flex: 1 0 100%;
+  -ms-flex: 1 0 100%;
+  flex: 1 0 100%; }
+
+section {
+  min-height: 100vh; }
+  section .home {
+    text-align: center; }
