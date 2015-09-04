@@ -20,6 +20,17 @@ header{
 		margin-top: 4em;
 	}
 }
+footer{
+	background-color: black;
+	height: 5em;
+	position: relative;
+	color: white;
+	text-align: center;
+
+	p{
+		padding-top: 1em;
+	}
+}
 #nav{
 	list-style-type: none;
 	display: flex;
@@ -54,4 +65,19 @@ section{
 		margin: 1em;
 	}
 }
-
+.customSection{
+	min-height: 80vh;
+}
+.contactForm{
+	margin: 1em;
+}
+#formName{
+	width: 100%;
+}
+#formSubject{
+	width: 100%;
+}
+#formTextarea{
+	width: 100%;
+	min-height: 10em;
+}

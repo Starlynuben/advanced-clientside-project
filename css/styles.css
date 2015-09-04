@@ -15,6 +15,15 @@ header {
     text-align: center;
     margin-top: 4em; }
 
+footer {
+  background-color: black;
+  height: 5em;
+  position: relative;
+  color: white;
+  text-align: center; }
+  footer p {
+    padding-top: 1em; }
+
 #nav {
   list-style-type: none;
   display: -webkit-flex;
@@ -48,3 +57,19 @@ section {
     margin-left: 1em; }
   section p {
     margin: 1em; }
+
+.customSection {
+  min-height: 80vh; }
+
+.contactForm {
+  margin: 1em; }
+
+#formName {
+  width: 100%; }
+
+#formSubject {
+  width: 100%; }
+
+#formTextarea {
+  width: 100%;
+  min-height: 10em; }
